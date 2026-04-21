@@ -7,10 +7,12 @@
     {
       "name": "rockstarr-infra",
       "description": "Scaffolds the client folder, ingests the workbook, generates the style guide, and runs knowledge base ingestion.",
-      "version": "0.4.11",
+      "version": "0.4.12",
       "source": {
-        "source": "url",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins/releases/download/rockstarr-infra-v0.4.11/rockstarr-infra.zip"
+        "source": "git-subdir",
+        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "path": "rockstarr-infra",
+        "ref": "rockstarr-infra-v0.4.12"
       }
     }
   ]
