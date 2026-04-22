@@ -17,13 +17,13 @@
     },
     {
       "name": "rockstarr-infra",
-      "description": "Scaffolds the client folder, ingests the workbook, generates the style guide, and runs knowledge base ingestion.",
-      "version": "0.4.14",
+      "description": "Rockstarr AI infrastructure plugin. Scaffolds the per-client folder, ingests the workbook, generates the style guide, runs the knowledge base, and exposes shared utilities every Rockstarr bot depends on.",
+      "version": "0.4.15",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
         "path": "rockstarr-infra",
-        "ref": "rockstarr-infra-v0.4.14"
+        "ref": "rockstarr-infra-v0.4.15"
       }
     }
   ]
