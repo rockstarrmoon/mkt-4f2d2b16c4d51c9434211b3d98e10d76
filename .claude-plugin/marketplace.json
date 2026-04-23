@@ -5,14 +5,14 @@
   },
   "plugins": [
     {
-      "name": "rockstarr-content-bot",
-      "description": "Rockstarr AI long-form drafting plugin. Ideates blog/newsletter/article topics from the client's profile, style guide, and knowledge base, then drafts in the client's approved voice. Blog posts use an outline-first two-step flow. Every output is first-party grounded and lands in 03_drafts/content/ for human review.",
-      "version": "0.1.0",
+      "name": "rockstarr-content",
+      "description": "Rockstarr AI long-form drafting plugin. Four publishing lanes (researched blog, thought leadership, email newsletter, LinkedIn newsletter) gated by the client's stack cadence, plus interview-driven case studies and repurposed derivatives. Every lane drafts in the client's approved voice from first-party knowledge base material; third-party sources live in References only. Monthly planning pass (ideate → pick → calendar → approve) then per-piece drafting on the calendar's schedule. All outputs land in 03_drafts/content/ for human review. Requires rockstarr-infra v0.4+ for the content-cadence stack fields and shared case-study prompt.",
+      "version": "0.2.0",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
-        "path": "rockstarr-content-bot",
-        "ref": "rockstarr-content-bot-v0.1.0"
+        "path": "rockstarr-content",
+        "ref": "rockstarr-content-v0.2.0"
       }
     },
     {
