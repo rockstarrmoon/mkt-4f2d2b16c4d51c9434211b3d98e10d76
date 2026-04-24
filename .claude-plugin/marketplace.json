@@ -27,6 +27,17 @@
       }
     },
     {
+      "name": "rockstarr-outreach-interceptly",
+      "description": "Rockstarr AI LinkedIn outreach plugin for clients who run Interceptly. At install, the bot discovers the client's Interceptly accounts, interviews the client on the persona for each, and captures their own ICP-qualification and warm-reply rules. At run time it drives Interceptly via Chrome MCP: multi-account rotation, unread-replies-first then My-Tasks, per-reply ICP requalification, temperature-bucketed drafting under the client's approved voice, strict send-it authorization, Interceptly labels + follow-up tasks. Interceptly is source-of-truth; /rockstarr-ai/ holds the audit mirror, drafts, approvals, and reports.",
+      "version": "0.1.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "path": "rockstarr-outreach-interceptly",
+        "ref": "rockstarr-outreach-interceptly-v0.1.0"
+      }
+    },
+    {
       "name": "rockstarr-outreach-salesnav",
       "description": "Rockstarr AI LinkedIn outreach plugin for clients who will not install Interceptly / MeetAlfred / Dripify / Waalaxy. Plans multi-touch campaigns against a client-supplied ICP and saved Sales Navigator search, executes the daily outreach loop directly in Sales Nav via Chrome MCP, and keeps all state in a single workbook inside /rockstarr-ai/. Enforces a 20/day + 100/week connection cap across campaigns, routes every reply through rockstarr-reply for approval, and confirms the browser is signed in to the correct LinkedIn before every run.",
       "version": "0.1.4",
