@@ -10,7 +10,7 @@
       "version": "0.3.0",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
         "path": "rockstarr-content",
         "ref": "rockstarr-content-v0.3.0"
       }
@@ -21,7 +21,7 @@
       "version": "0.8.1",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
         "path": "rockstarr-infra",
         "ref": "rockstarr-infra-v0.8.1"
       }
@@ -32,7 +32,7 @@
       "version": "0.2.0",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
         "path": "rockstarr-outreach-interceptly",
         "ref": "rockstarr-outreach-interceptly-v0.2.0"
       }
@@ -43,7 +43,7 @@
       "version": "0.1.6",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
         "path": "rockstarr-outreach-salesnav",
         "ref": "rockstarr-outreach-salesnav-v0.1.6"
       }
@@ -54,7 +54,7 @@
       "version": "0.2.0",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/rockstarrmoon/rockstarr-plugins.git",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
         "path": "rockstarr-reply",
         "ref": "rockstarr-reply-v0.2.0"
       }
