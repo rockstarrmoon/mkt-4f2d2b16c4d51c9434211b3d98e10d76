@@ -27,6 +27,17 @@
       }
     },
     {
+      "name": "rockstarr-ops",
+      "description": "Rockstarr AI sales-ops bot for the Growth OS. Tool-agnostic by design: every CRM, task system, meeting recorder, calendar, email platform, deliverability tool, and LinkedIn outreach tool is named in stack.md at install time. V0.1 covers daily call prep (orchestrator), Call 1 + Call 2 prep, client catch-up agendas, old-lead audits, lead reengagement, post-call transcript processing, and recurring email-deliverability tests. Drafting goes through rockstarr-reply; CRM writes go through the active rockstarr-ops-bot-<crm> variant; LinkedIn DM sends go through the active rockstarr-outreach-* variant. No baked-in framework, voice, pitch, or pricing — every behavior comes from intake-produced files (pitch.md, ops-call-framework.md, deliverability-config.md, icp-qualifications.md, style-guide.md) plus stack.md.",
+      "version": "0.1.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rockstarr-moon/rockstarr-plugins.git",
+        "path": "rockstarr-ops",
+        "ref": "rockstarr-ops-v0.1.0"
+      }
+    },
+    {
       "name": "rockstarr-outreach-interceptly",
       "description": "Rockstarr AI LinkedIn outreach plugin for clients who run Interceptly. Owns the Interceptly integration end-to-end: account discovery, per-account persona capture, campaign lifecycle (draft, launch, pause, stop), multi-account session confirmation, the daily inbox + tasks loop, per-reply channel I/O (send, label, follow-up task, meeting proposal, booking), and outreach-side metrics + weekly reporting. Hands every inbound reply to rockstarr-reply for drafting and operator approval, then executes the returned bundle inside Interceptly. Exposes a daily-loop orchestration skill that scaffold-client wires to the schedule for background runs; in background mode, drafts are staged but never sent inline and the loop fires one urgent reply-ready email per run via rockstarr-infra:notify-reply-ready (>=0.8.0) when new reply drafts get staged.",
       "version": "0.2.1",
